@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Chúc 20/10 - Chuyển Tiếp</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec; /* Màu hồng nhạt */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #e91e63; /* Màu hồng đậm */
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            min-height: 400px; /* Đảm bảo chiều cao tối thiểu */
+            position: relative;
+            overflow: hidden; /* Quan trọng cho hiệu ứng slide */
+        }
+
+        .slide {
+            padding: 20px;
+            border: 1px solid #ff80ab;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            /* Thiết lập ban đầu cho slide */
+            position: absolute;
+            width: calc(100% - 60px); /* 100% trừ padding container */
+            top: 30px;
+            transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+        }
+        
+        /* Ẩn các slide chưa được chọn */
+        .slide:not(.active) {
+            opacity: 0;
+            transform: translateX(100%); /* Đưa slide ra ngoài màn hình bên phải */
+            pointer-events: none; /* Không cho tương tác khi ẩn */
+        }
+
+        /* Slide hiện tại */
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        h2 {
+            color: #d81b60;
+            border-bottom: 2px solid #ff80ab;
+            padding-bottom: 5px;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '🌸';
+            position: absolute;
+            left: 0;
+            color: #ff4081;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+        }
+
+        button {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌹 Chúc Mừng Ngày Phụ Nữ Việt Nam 20/10 🌹</h1>
+        <p>Chọn lời chúc để tiếp tục khám phá!</p>
+    </header>
+
+    <div class="container">
+
+        <div id="slide-1" class="slide active">
+            <h2>✨ Lời Chúc Tôn Vinh Vẻ Đẹp và Hạnh Phúc (1/4) ✨</h2>
+            <ul>
+                <li>Chúc bạn luôn xinh đẹp và rạng rỡ như hôm nay!</li>
+                <li>Chúc bạn có một ngày 20/10 thật vui và ý nghĩa!</li>
+                <li>Chúc bạn luôn cười tươi như hoa nhé!</li>
+                <li>Ngày của bạn, hãy thật hạnh phúc nha!</li>
+                <li>Chúc bạn nhận được thật nhiều quà và lời chúc dễ thương!</li>
+                <li>Chúc bạn luôn được yêu thương và trân trọng!</li>
+                <li>Chúc bạn gặp nhiều niềm vui trong cuộc sống!</li>
+                <li>20/10 vui vẻ, xinh đẹp và hạnh phúc nhé!</li>
+                <li>Chúc bạn luôn tự tin, mạnh mẽ và tỏa sáng!</li>
+                <li>Chúc bạn có ngày 20/10 ngập tràn tiếng cười!</li>
+            </ul>
+        </div>
+
+        <div id="slide-2" class="slide">
+            <h2>😂 Lời Chúc Vui Vẻ và Hóm Hỉnh (2/4) 😄</h2>
+            <ul>
+                <li>Chúc bạn 20/10 vui như được nghỉ học! 😄</li>
+                <li>Chúc bạn luôn xinh, không bao giờ “xịn” ít lại!</li>
+                <li>Chúc bạn mỗi ngày đều được khen xinh mà không phải cố!</li>
+                <li>Chúc bạn có người tặng quà, không phải “tự mua”!</li>
+                <li>Ngày 20/10 vui vẻ, đừng quên “thả thính” hợp lý nhé!</li>
+                <li>Chúc bạn càng ngày càng đáng yêu hơn, nếu có thể 😜</li>
+                <li>Chúc bạn luôn trẻ như học sinh tiểu học (trừ lúc làm bài kiểm tra)!</li>
+            </ul>
+        </div>
+
+        <div id="slide-3" class="slide">
+            <h2>💖 Lời Chúc Ấm Áp và Ý Nghĩa (3/4) 🌟</h2>
+            <ul>
+                <li>Chúc bạn mãi là bông hoa đẹp trong mắt mọi người!</li>
+                <li>Chúc bạn luôn bình an và hạnh phúc bên những người thân yêu!</li>
+                <li>20/10 – chúc bạn được yêu thương như bạn xứng đáng!</li>
+                <li>Chúc bạn luôn có thật nhiều niềm tin và nụ cười!</li>
+                <li>Chúc bạn luôn rạng rỡ như ánh nắng ban mai!</li>
+                <li>20/10, chúc bạn nhận được thật nhiều điều tốt đẹp!</li>
+                <li>Chúc bạn có ngày 20/10 đáng nhớ và ngọt ngào!</li>
+                <li>Chúc bạn mãi giữ tâm hồn trong sáng và trái tim ấm áp!</li>
+                <li>Chúc bạn 20/10 hạnh phúc gấp đôi và xinh gấp bội! 💖</li>
+            </ul>
+        </div>
+
+        <div id="slide-4" class="slide">
+             <h2>💌 Lời Chúc Đặc Biệt Gửi Đến Cô Giáo (4/4) 💌</h2>
+            <div style="text-align: center; margin-top: 50px; padding: 20px; background-color: #ffcdd2; border-radius: 10px;">
+                <p style="font-size: 1.5em; color: #880e4f; font-weight: bold;">
+                    Kính chúc cô 20/10 thật nhiều niềm vui, sức khỏe và thành công trong sự nghiệp 🌷
+                </p>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="prev-btn" style="display: none;">Quay Lại</button>
+            <button id="next-btn">Tiếp Tục</button>
+            <p id="end-message" style="color: #d81b60; font-weight: bold; display: none;">🎉 Kết Thúc! Chúc mừng 20/10! 🎉</p>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const nextButton = document.getElementById('next-btn');
+        const prevButton = document.getElementById('prev-btn');
+        const endMessage = document.getElementById('end-message');
+        let currentSlide = 0;
+
+        function updateSlide() {
+            // Cập nhật hiển thị cho từng slide
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active');
+                if (index === currentSlide) {
+                    slide.classList.add('active');
+                }
+            });
+
+            // Cập nhật nút
+            prevButton.style.display = (currentSlide > 0 && currentSlide < slides.length - 1) ? 'inline-block' : 'none';
+            
+            if (currentSlide < slides.length - 1) {
+                nextButton.style.display = 'inline-block';
+                endMessage.style.display = 'none';
+                nextButton.textContent = 'Tiếp Tục';
+            } else {
+                nextButton.style.display = 'none'; // Ẩn nút "Tiếp Tục" ở slide cuối
+                prevButton.style.display = 'inline-block'; // Hiện nút "Quay Lại" ở slide cuối
+                endMessage.style.display = 'block';
+            }
+        }
+
+        nextButton.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                updateSlide();
+            }
+        });
+
+        prevButton.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlide();
+            }
+        });
+
+        // Khởi tạo trạng thái ban đầu
+        updateSlide();
+    </script>
+
+</body>
+</html>
